@@ -1,16 +1,16 @@
 # Data-Analytics - Supportive-Machine-Learning
 
-Welcome to the most hands-on, intuitive, and self-contained data analytics course you’ll ever find.  
+This is the most hands-on, intuitive, and self-contained data analytics learning guide one will ever find.  
 **No external datasets needed.** Every concept is illustrated with synthetic data you generate right in your notebook.  
 You’ll learn not just *how* to analyze data, but *why* each method works – and when to use it.
 
 ---
 
-## Why This Course?
+## Why This Guide?
 
 - **100% self-contained** – all data is generated with Python (NumPy, pandas). No downloading, no licenses.
 - **Every line of code explained** – no black boxes, no copy‑pasting without understanding.
-- **Story‑driven analogies** – connect concepts to real life so you remember them.
+- **Story‑driven analogies** – connect concepts to real life so the learner remembers them.
 - **Hands‑on from day one** – write code, experiment, and build intuition.
 - **Covers everything** – from Python basics to advanced modeling, exactly the topics of a top-tier data analytics syllabus.
 - **Free, open, and forever yours** – no subscriptions, no paywalls. Fork it, share it, improve it.
@@ -20,7 +20,7 @@ You’ll learn not just *how* to analyze data, but *why* each method works – a
 ## Course Structure
 
 The course is divided into **12 weeks**, each with a dedicated folder containing:
-- A Jupyter notebook (`notebook.ipynb`) with step‑by‑step code, explanations, and exercises.
+- A notebook with step‑by‑step code, explanations, and exercises.
 - An optional `solutions.ipynb` with exercise answers.
 - A short `README.md` inside the week folder (if needed).
 
@@ -34,7 +34,7 @@ Each week follows the same friendly format:
 
 ---
 
-## 📖 Course Overview
+## Learning Guide Overview:
 
 | Week | Topic |
 |------|-------|
