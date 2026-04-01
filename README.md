@@ -67,108 +67,74 @@ By the end of the course, you will:
 - Basic computer literacy (files, folders).
 - No prior Python or statistics experience required – we start from scratch.
 
-data-analytics-course/
-│
-├── README.md                 # This file
-├── requirements.txt          # List of required libraries
-│
-├── week01/                   # Python fundamentals
-│   └── week01.ipynb
-├── week02/                   # Probability
-│   └── week02.ipynb
-├── week03/                   # Sampling & distributions
-│   └── week03.ipynb
-├── week04/                   # Hypothesis testing
-│   └── week04.ipynb
-├── week05/                   # Two‑sample & ANOVA
-│   └── week05.ipynb
-├── week06/                   # Two‑way ANOVA & linear regression
-│   └── week06.ipynb
-├── week07/                   # Multiple regression
-│   └── week07.ipynb
-├── week08/                   # MLE & logistic regression
-│   └── week08.ipynb
-├── week09/                   # ROC & model validation
-│   └── week09.ipynb
-├── week10/                   # Chi‑square & clustering intro
-│   └── week10.ipynb
-├── week11/                   # Clustering in depth
-│   └── week11.ipynb
-├── week12/                   # CART & final project
-│   ├── week12.ipynb
-│   └── final_project.ipynb
-│
-└── solutions/                # Exercise solutions (optional)
-    └── ...
+**Week‑by‑Week Breakdown:**
 
-Week‑by‑Week Breakdown
-
-Week 1: Python Fundamentals & Data Analytics Introduction
+Pillar 1: Python Fundamentals & Data Analytics Introduction
 - What is data analytics? – the cooking analogy.
 - Python basics: variables, data types, lists, dictionaries, conditionals, loops, functions.
 - Generating synthetic data with numpy and pandas.
 - First look at a DataFrame: filtering, grouping, basic statistics.
 
-Week 2: Probability
+Pillar 2: Probability
 - Why probability? – measuring uncertainty.
 - Random variables – coin tosses, dice rolls.
 - Probability distributions: binomial, Poisson, normal.
 - Python simulation of random processes.
 
-Week 3: Sampling & Sampling Distributions
+Pillar 3: Sampling & Sampling Distributions
 - Population vs. sample – the art of generalization.
 - Central Limit Theorem – the magic of averages.
 - Simulating sampling distributions with exponential and uniform populations.
 - Standard error and its meaning.
 
-Week 4: Hypothesis Testing
+Pillar 4: Hypothesis Testing
 - Null vs. alternative hypotheses – the courtroom analogy.
 - Type I and Type II errors – convicting an innocent vs. freeing a guilty.
 - One‑sample z‑test and t‑test.
 - p‑values – what they are (and what they are not).
 
-Week 5: Two‑Sample Testing & ANOVA
+Pillar 5: Two‑Sample Testing & ANOVA
 - Comparing two independent groups – pooled t‑test vs. Welch’s t‑test.
 - Paired t‑test – before‑after designs.
 - One‑way ANOVA – comparing three or more groups.
 - Post‑hoc analysis with Tukey’s HSD.
 
-Week 6: Two‑Way ANOVA & Linear Regression
+Pillar 6: Two‑Way ANOVA & Linear Regression
 - Two‑way ANOVA – main effects and interaction.
 - Simple linear regression – the best‑fit line.
 - Least squares – deriving the slope and intercept.
 - Interpretation of \(R^2\).
 
-Week 7: Multiple Regression & Model Building
+Pillar 7: Multiple Regression & Model Building
 - Multiple linear regression – adding more predictors.
 - Adjusted \(R^2\) – the honest measure.
 - Dummy variables – including categorical predictors.
 - Stepwise selection and regularization (ridge, lasso).
 
-Week 8: Maximum Likelihood Estimation & Logistic Regression
+Pillar 8: Maximum Likelihood Estimation & Logistic Regression
 - MLE intuition – finding parameters that make data most likely.
 - MLE for normal distribution – sample mean and variance.
 - Logistic regression – predicting binary outcomes.
 - Log‑odds and odds ratios – interpreting coefficients.
 
-Week 9: ROC Curves & Regression Model Validation
+Pillar 9: ROC Curves & Regression Model Validation
 - ROC curves – trade‑off between true positives and false positives.
 - AUC – measure of discrimination.
 - Cross‑validation – k‑fold, leave‑one‑out.
 - Bias‑variance trade‑off – overfitting vs. underfitting.
 
-Week 10: Chi‑Square Test & Introduction to Clustering
+Pillar 10: Chi‑Square Test & Introduction to Clustering
 - Chi‑square test for independence – are two categorical variables related?
 - Contingency tables – observed vs. expected frequencies.
 - Introduction to clustering – unsupervised learning.
 - Distance metrics – Euclidean, Manhattan.
 
-Week 11: Clustering Analysis
+Pillar 11: Clustering Analysis
 - k‑means – algorithm, elbow method, silhouette score.
 - Hierarchical clustering – dendrograms, linkage methods.
 - Standardization – why it’s crucial.
 
-Week 12: Classification & Regression Trees (CART) + Final Project
+Pillar 12: Classification & Regression Trees (CART) + Final Project
 - Decision trees – splitting criteria (Gini, entropy, MSE).
 - Pruning – avoiding overfitting.
 - Random forest – bagging many trees.
@@ -176,7 +142,7 @@ Week 12: Classification & Regression Trees (CART) + Final Project
 
 ---
 
-🧪 Final Project: Churn Prediction
+Final Project: Churn Prediction
 
 **Scenario:** A telecom company wants to reduce customer churn. You are given synthetic data of 5,000 customers with features like:
 - `tenure` (months)
@@ -199,7 +165,7 @@ Week 12: Classification & Regression Trees (CART) + Final Project
 
 ---
 
-💡 How to Get the Most Out of This Course
+How to Get the Most Out of This Learning Path:
 
 - **Run every code cell.** Experiment by changing parameters.
 - **Try the exercises** before looking at solutions.
